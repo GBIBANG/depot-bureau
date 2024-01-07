@@ -1,0 +1,16 @@
+
+
+		Mardi 24 octobre 2023
+----------------------------------------------------------------------------------------------------------------
+				
+Correction des vulnérabilités ( OK)
+
+Il s’agit de changer la version de primeNg 15.0.0 vers une version la version 15.4.1
+
+Il s’agit aussi de corriger le beug lié au code css 
+
+Gestion des utilisateurs
+
+Affichage de la liste des utilisateurs ( OK )
+
+Mise en oeuvre de la recherche instantanée d'un utilisateur ( OK )

@@ -1,0 +1,805 @@
+
+--------------------------------------------------------------------------------------
+	Jeudi 21 décembre 2023
+--------------------------------------------------------------------------------------
+
+		Ticket:   DELL-212:  Ajouter des images à un produit restaurant : Add images to a restaurant product
+			
+			Type: Autoto-Server-Back-office
+		
+			Lien:  https://ossas-it.atlassian.net/browse/DEL-212
+			
+			git branch -m garcin/feature-DELL-212-add-images-to-a-restaurant-product
+			
+			Détails:
+			
+					
+					Implémentation de la méthode qui ajoute des produits à un store restaurant
+		
+--------------------------------------------------------------------------------------		
+
+		Ticket:   DELL-193:  implémenter la recherche pour les livraisons : implement search for deliveries
+			
+			Type: Autoto-Back-office
+		
+			Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-193
+			
+			git branch -m garcin/feature-DELL-193-implement-search-for-deliveries
+			
+			Détails:
+			
+			
+		
+--------------------------------------------------------------------------------------
+	Mer 20 décembre 2023
+--------------------------------------------------------------------------------------
+
+			Ticket:   DELL-193:  implémenter la recherche pour les livraisons : implement search for deliveries
+			
+			Type: Autoto-Back-office
+		
+			Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-193
+			
+			git branch -m garcin/feature-DELL-193-implement-search-for-deliveries
+			
+			Détails:
+
+
+
+--------------------------------------------------------------------------------------
+	Mardi 19 décembre 2023
+--------------------------------------------------------------------------------------
+
+			Ticket:   DELL-210:  Implémenter la recherche des catalogues et des produits : Implement catalog and product search
+			
+			Type: Autoto-Back-office
+		
+			Lien:  https://ossas-it.atlassian.net/browse/DEL-210
+			
+			git branch -m garcin/feature-DELL-210-Implement-catalog-and-product-search
+			
+			Détails:
+			
+				Implémenter la recherche des catalogues
+				
+				Implémenter l’annulation de la recherche des catalogues( En cours)
+				
+				Implémenter la recherche des produits
+				
+				Implémenter l’annulation de la recherche des produits
+				
+--------------------------------------------------------------------------------------
+	Lundi  18 décembre 2023
+--------------------------------------------------------------------------------------
+
+			Ticket:   DEL-190:  Implémenter la recherche pour les publicités (tips) : Implement search for ads (tips)
+			
+			Type: Autoto-Back-office
+		
+			Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-190
+			
+			git branch -m garcin/feature-DELL-190-implement-search-for-ads
+			
+			Détails:
+			
+				DELL-189:  Implémentation de la recherche des stores
+			
+				modification de la fonction searchOrRetrievePaginatedTips()
+
+				Ajout du paramètre boolean isSearch pour spécifier la recherche ou la pagination
+				
+--------------------------------------------------------------------------------------				
+
+			Ticket:   DELL-189:  Implémenter la recherche pour les stores : Implement search for stores
+			
+			Type: Autoto-Back-office
+		
+			Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-189
+			
+			git branch -m garcin/feature-DEL-189-Implement-search-for-stores
+			
+			Détails:
+			
+				DELL-189:  Implémentation de la recherche des stores
+			
+				modification de la fonction searchOrRetrievePaginatedStores
+
+				Ajout du paramètre boolean isSearch pour spécifier la recherche ou la pagination
+
+		
+--------------------------------------------------------------------------------------
+
+			Ticket:   DELL-204:  Corriger le beug sur la selection d'une période dans les statistiques : Fix the bug when selecting a period in statistics
+			
+			Lien:  https://ossas-it.atlassian.net/browse/DEL-204
+				
+			git branch -m garcin/fix-DEL-204-fix-the-bug-when-selecting-a-period-in-statistics
+			
+			Détails 
+			
+					DELL-204:  Implémentation de la correction du beug sur la selection d'une période dans les statistiques
+			
+					1 -  Correction du beug levant l’exception lors de la selection d’une date anterieur et d’une date d’aujourdhui
+
+
+--------------------------------------------------------------------------------------
+
+		
+			Ticket:   DELL-203:  Correction de l'ensemble des beugs suivants : Fixed all of the following bugs
+			
+			Lien:  https://ossas-it.atlassian.net/browse/DEL-203
+				
+			git branch -m garcin/fix-DEL-203-fixed-all-of-the-following-bugs
+			
+			Détails 
+			
+					1 -  Beug lié à l’enregistrement d’une livraison SHOPPING ou STANDARD( le productNumber ne peut être null)
+
+					2-  Beug lié à la selection de la date d’aujourdhui( Lorsqu’on selectionne la date d’aujourdhui, il retourne une exception)
+
+					3- Beug lié au comptage total des stores( Il compte tous les stores y compris ceux qui ont le type PLACE)
+
+
+			
+-------------------------------------------------------------------------------------------------
+
+		
+		Ticket:   DELL-189:  Implémenter la recherche pour les stores : Implement search for stores
+		
+		Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-189
+			
+		git branch -m garcin/feature-DEL-189-Implement-search-for-stores
+		
+-------------------------------------------------------------------------------
+
+		Ticket:   DELL-201:  Afficher les statistiques de la livraison par statut : View delivery statistics by status
+		
+		Lien:  https://ossas-it.atlassian.net/browse/DEL-201
+			
+		git branch -m garcin/feature-DELL-201-view-delivery-statistics-by-status
+		
+		Détails:
+		
+				DELL-201: Implémentation de l'affichage des statistiques de la livraison par statut
+		
+				Ajout du boolean all pour afficher le nombre total de toutes les livraisons par status par défaut
+		
+		
+-------------------------------------------------------------------------------
+
+		Ticket:   DELL-186:  Optimiser l'affichage des statistiques du haut de la page : Optimize the display of statistics at the top of the page
+		
+		Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-186
+			
+		git branch -m garcin/feature-DEL-186-optimize-the-display-of-statistics-at-the-top-of-the-page
+		
+		Détails:
+		
+				DELL-186: Optimization of the display of statistics at the top of the page
+		
+				1- Implémentation de l'affichage du Nombre total de livraisons, de clients, de stores et d’utilisateurs par défaut
+				2- Implémentation de l'affichage du nombre total de l’ensemble des éléments sur une période donnée
+				3- Implémentation de l'affichage du nombre total d’un élément spécifique sur une période donnée
+
+				4- Suppréssion des éléments de l’objet retour (nombre de livraison total par statut, nombre de stores par type et 			nombre d’utilisateurs par Role)
+			
+
+-------------------------------------------------------------------------------
+
+
+
+			Optimiser l'affichage des statistiques
+
+
+			1- Afficher le Nombre total de livraisons, de clients, de stores et d’utilisateurs par défaut
+
+2- Afficher le nombre total de l’ensemble sur une période donnée
+
+3- Afficher le nombre total d’un cas spécifique sur une période donnée
+
+4- Supprimer certaines éléments de l’objet retour
+
+Il s’agit du nombre de livraisontotal par statut
+
+Du nombre de stores par type
+
+Nombre d’utilisateurs par Role
+-----------------------------------------------------------------------------
+
+		DEL-186 : finalisation de Autorisation de l'affichage des statistiques en sélectionnant une date ou une période
+		
+		DEL-186: finalizing Authorization to display statistics by selecting a date or period
+		
+		git branch -m garcin/feature-DEL-186-finalizing-authorization-to-display-statistics
+		
+		
+
+			Fix the bug on ad recovery DEL-198
+			
+			git branch -m garcin/fix-DEL-198-fix-the-bug-on-ad-recovery
+
+
+		Ticket:   DELL-194:  Corriger l'ensemble des beugs suivants : Fix all of the following bugs
+		
+		Lien:  https://ossas-it.atlassian.net/browse/DEL-194
+			
+		git branch -m garcin/fix-DEL-194-fix-all-of-the-following-bugs
+		
+		Détails:
+		
+				DELL-194: Implémentation de la correction des beugs suivants
+		
+				 1 -  Cacher le mot de passe de l’utilisateur lors de l’ajout 
+
+				2-   Afficher une info supplémentaire (téléphone) lors de la modification du client
+
+				3-  Modifier le process de l’ajout et de la modification du catalogue pour prendre en compte les  modifications
+
+				4-  Mettre une condition pour l’affichage des données dans toutes les pages
+			
+
+-------------------------------------------------------------------------------
+
+
+		Ticket:   DELL-181:  Mettre à jour la pagination de l'ensemble des pages : Optimize the pagination of all pages
+		
+		Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-181
+			
+		git branch -m garcin/feature-DEL-181-optimize-the-pagination-of-all-pages-paginated-pub
+		
+		Détails:
+		
+				DELL-181: Optimisation de la pagination de l'ensemble des pages
+
+				1- Implémentation de la pagination des publicités
+				
+				2- Modification de userService afin de paginer les utilisateurs dont le rôle n'est ni client ou livreur
+			
+
+-------------------------------------------------------------------------------
+
+		Ticket:   DELL-182:  Modifier le produit d'un catalogue : Edit a catalog product
+		
+		Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-182
+			
+		git branch -m garcin/feature-DEL-182-edit-a-catalog-product
+		
+		Détails:
+		
+				DELL-182: Modifier le produit d'un catalogue
+
+				1-Utilisant de l'élément EditableRow de primeng
+
+				2- Optimisation des inputs pour optimiser le rendu
+
+				3- Implémentation de la modification du produit d'un catalog
+
+-------------------------------------------------------------------------------
+
+			
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+		Ticket:   DELL-181:  Mettre à jour la pagination de l'ensemble des pages : Optimize the pagination of all pages
+		
+		Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-181
+			
+		git branch -m garcin/feature-DEL-181-optimize-the-pagination-of-all-pages
+		
+		Détails:
+		
+				DELL-181: Optimisation de la pagination de l'ensemble des pages
+
+				1- Optimisation de la pagination des livraisons
+
+				2- Optimisation de la pagination des stores
+
+				3- Optimisation de la pagination des clients
+
+				4- Optimisation de la pagination des utilisateurs
+
+-------------------------------------------------------------------------------
+
+		Ticket:   DELL-180:  Ajouter des produits dans un catalogue avec excel : Add products to a catalog with Excel
+		
+		Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-180
+			
+		git branch -m garcin/feature-DEL-180-add-products-to-a-catalog-with-excel
+		
+		Détails
+		
+			DELL-180: Ajout des produits avec excel
+
+			1- Modification du paramètre action pour utiliser le même composant(CatalogCreateFromExcelComponent)
+
+			2- Modification du composant CatalogCreateFromExcelComponent  pour gerer la création du catalogue et l'ajout des produits
+
+			3- implémentation de l'ajout des produits dans un catalogue en utilisant excel
+
+-------------------------------------------------------------------------------
+
+		Ticket:  DELL-164:  Optimisation de la Modification d'un Catalogue:  Optimization of Editing a Catalog
+			
+			Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-164
+			
+			git branch -m garcin/feature-DEL-164-optimization-of-editing-a-catalog
+			
+			Détails :
+			
+				1- Optimisation du rendu des inputs de la modification du catalog
+
+				2- Implémentation de la modification du catalogue
+
+				3- Optimisation de la fonction createOrUpdateCatalog pour finaliser le processus
+
+
+
+		Ticket:   DELL-166:  Ajouter des produits dans un catalogue : Add products to a catalog
+		
+		Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-166
+			
+		git branch -m garcin/feature-DEL-166-add-products-to-a-catalog
+		
+		Détails 
+		
+			1- Modification de la méthode createOrUpdateCatalog() afin d'utiliser le même composant( atalogCreateOrUpdateComponent)
+
+			2- Attribution de la valeur create-with-produts à la variable action afin d'adapter ce composant
+
+			3- Implémentation de l'ajout des produits à un catalogue
+
+-------------------------------------------------------------------------------
+
+
+		Ticket:   DELL-175:  Corriger l'ensemble des beugs sur la gestion des catalogues : Correct all bugs in catalog management
+		
+		Lien:  https://ossas-it.atlassian.net/browse/DEL-175
+			
+		git branch -m garcin/fix-DEL-175-fix-bugs-in-catalog-management
+			
+		Détails :
+		
+			1- Correction de l'erreur:  ExpressionChangedAfterItHasBeenCheckedError
+			
+			2- Correction du fait que les produits ne s’affichent pas après l’enregistrement d’un catalogue
+			
+			3- Corrction de l'effet d'ouverture et fermeture des soudaines des accodéons lors de l'ouverture du modal 
+	
+-------------------------------------------------------------------------------
+
+
+		Ticket:   DELL-165:  Création d'un catalogue depuis un fichier Excel:  Creating a catalog from an Excel file
+		
+		Lien:  https://ossas-it.atlassian.net/browse/DEL-165
+			
+		git branch -m garcin/feature-DEL-165-creating-a-catalog-from-an-excel-file
+			
+			
+			
+-------------------------------------------------------------------------------		
+
+			Ticket:  DEL-173: Optimisation de la gestion des clients :  Optimization of customer management
+			
+			Lien:  https://ossas-it.atlassian.net/browse/DEL-173
+			
+			git branch -m garcin/feature-DEL-173-optimization-of-customer-management
+			
+			Détails :
+			
+				1- Optimisation de l’affichage des clients
+
+				2- Optimisation de l’affichage du détails d’un client
+				
+				3- Optimisation de l’ajout et de la modification d’un client
+				
+				
+				DEL-159 : Backend dashbord stat
+				DEL-156 : Back-office dashboard statistics
+
+			
+-------------------------------------------------------------------------------	
+
+		
+			Ticket:  DEL-172: Optimisation de l'affichage du détails d'un catalogue:  Optimizing the display of catalog details
+			
+			Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-172
+			
+			git branch -m garcin/feature-DEL-172-optimizing-the-display-of-catalog-details
+			
+			Détails :
+			
+				1-  Optimisation de l’affichage du détails d’un catalogue
+
+				2- Optimisation de l’affichage des produits
+						
+-------------------------------------------------------------------------------			
+			
+			Merge la PR Cancel a delivery de Lionnel
+			
+			
+			
+							
+-------------------------------------------------------------------------------				
+			
+			
+			Ticket:  DELL-163:  Optimisation de l'ajout d'un Catalogue:  Optimization of adding a Catalog
+			
+			Lien:  https://ossas-it.atlassian.net/jira/software/projects/DEL/boards/6?selectedIssue=DEL-163
+			
+			git branch -m garcin/feature-DEL-163-optimization-of-adding-a-catalog
+			
+			
+			Détails :
+			
+			
+					1- Optimisation des inputs de la création du store 
+					
+					2- Optimisation de la création du store en modifiant les noms de fonctions et de variable
+					
+					3- Modification de form process service pour finaliser le process
+					
+					4- Suppression des composants catalog-add et manage-catalogs
+			
+			
+			
+			Merged in epiphanie/user-profile (pull request #49)
+
+update user profile
+
+Approved-by: Grel Lionel MUBAGHU-LUNDU
+
+Merged in grellionel/DEL-115-assign-order-delivery-person (pull request #50)
+
+delivery-design-update
+			
+			
+			
+			
+				
+				Lundi 20 nov 2023
+				
+				
+				DEL-169:  Optimisation de l'affichage du détails d'un store
+				
+				1- Rajouter un autre bouton afin despécifier le type de store
+				
+				1- Remplacer le fond titre du header de la card de la gestion des stores par Quicksand
+
+2- Optimiser le rendu de l’affichage du détails d”un store
+
+3- Optimiser le rendu de l’affichage des catalogues d’un store
+
+4- Supprimer la couleur defont dans les entêtes des différentes parties
+
+
+				git branch -m garcin/feature-DEL-169-optimizing-the-display-store-details
+				
+				
+				DEL-160:   Mise à jour de la création et de la modification d'un store: Updated creation and modification of a store
+				
+				git branch -m garcin/feature-DEL-160-updated-creation-and-modification-of-a-store
+				
+				
+				Détails
+				
+				
+
+Mise à jour de la création d'un store
+
+Mise à jour de la modification d'un store
+
+Optimisation des inputs de la création et de la modif du store
+				
+				DEL-161: Mise à jour de l'affichage des stores:  DEL-161: stores display update
+				
+				git branch -m garcin/feature-DEL-161-stores-display-update
+				
+				Détails
+				
+					Optimiser  l'affichage des stores  en s'inspirant de l'affichage des livraisons
+
+Changer l’icône de la gestion des stores
+
+Supprimer la colonne note dans table-utils pour un meilleur rendu
+
+Définir la bordure des lignes et des colonnes des tables en none pour homogéniser les headers des tables
+
+Création du composant createOrUpdateStore pour amorcer le prochain ticket
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+				
+
+
+			Mercredi 15 Nov 2023
+			
+				
+			DEL-155:  Optimisation et Mise à jour de la gestion des stores : Optimization and updating of blinds management
+			
+			
+			git branch -m garcin/feature-DEL-155-optimization-and-updating-of-stores-management
+			
+			
+			
+			Ticket:   Correction de certaines vulnérabilités css et optimisation de l'affichage des  stores et de la sidebar
+			
+							Fixed certain css vulnerabilities and optimized the display of stores and the sidebar
+			
+			
+			
+			
+			
+			
+			Ticket:   reformuler lesthématiques desdescriptions ==>  reformulate the themes of the descriptions
+					
+			git branch -m garcin/feature-PB-1-reformulate-themes-of-the-descriptions
+			
+			
+			Ticket:  Les mêmes styles de couleurs sont générés plusieurs fois et optimisation de l'affichage des stores  ==>
+			
+								The same color styles are generated multiple times and optimization of blinds display
+								
+			git branch -m garcin/fix-AUT-1-same-color-styles-are-generated-multiple-times-and-optimization-stores-display
+			
+			
+			Erreur
+			
+			
+			Warning
+
+(3085:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+			
+			
+				The same color styles are generated multiple times. Read more about how style duplication can be avoided in a dedicated guide. https://github.com/angular/components/blob/main/guides/duplicate-theming-styles.md
+
+node_modules/@angular/material/core/theming/_theming.scss 352:7   private-check-duplicate-theme-styles()
+node_modules/@angular/material/core/theming/_all-theme.scss 44:3  all-component-themes()
+src/styles.scss 58:1 
+
+
+                                             root stylesheet
+											 
+											 
+											 Description :
+											 
+	1-   Correction de l'érreur autoprefixer: end value has mixed support, consider using flex-end instead
+
+	2-  
+
+
+
+			
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+			Ticket:   Bouton Faire défiler vers le haut ==>  Scroll To Top Button
+					
+					git branch -m garcin/feature-PFO-1-scroll-to-top-button
+			
+			
+			
+			
+
+				Lundi 13 Nov 2023
+				
+				-----------------------------------------------------------------------------------------------------------------------------------
+
+					Coupure:  09H44 -  10H47
+					
+					Ticket:   Bouton Faire défiler vers le haut ==>  Scroll To Top Button
+					
+					git branch -m garcin/feature-PFO-1-scroll-to-top-button
+					
+					
+					
+					The same color styles are generated multiple times. Read more about how style duplication can be avoided in a dedicated guide. https://github.com/angular/components/blob/main/guides/duplicate-theming-styles.md
+
+node_modules/@angular/material/core/theming/_theming.scss 352:7   private-check-duplicate-theme-styles()
+node_modules/@angular/material/core/theming/_all-theme.scss 44:3  all-component-themes()
+src/styles.scss 58:1                                              root stylesheet
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+							
+							Seance de test de toute l'application pour un meilleur suivie 
+							
+									Test du back-office
+									Test du back
+										Beug sur l'enregistrement de deux contributions ayant la même thématique
+											
+									Test du front 
+									
+											Beug sur la pagination de l'affichage des contributions d'une thématique 
+											
+											
+							Correction du beug sur l'enregistrement de deux contributions ayant la même thématique
+							
+							2e seance de test de toute l'application pour un meilleur suivie 
+							
+									Test du back-office ( OK)
+									Test du back ( OK)
+									Test du front ( OK)
+											En attente que Bayos finit le reglage de la pagination
+									
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+			Jeudi 9 nov 2023
+			
+			Ticket en cours :   Revue de patriote back office  ===>  Patriot Back Office Review
+			
+			git branch -m garcin/feature-PBO-15-Patriot-back-office-review
+
+		
+			Mardi 7 nov 2023
+			-----------------------------------------------------------------------------------------------------------------------------------
+
+					Ticket en cours :   Gestion des transactions  ===>  Transaction management
+					
+					N° du Ticket :  YES-191
+			
+					git branch -m garcin/feature-YES-191-transaction management
+			
+		
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+
+			Lundi 6 nov 2023
+			-----------------------------------------------------------------------------------------------------------------------------------
+
+				Ticket en cours :   fix bug on updating settings ==>  corriger le beug sur la mise à jour des paramètres
+			
+				git branch -m garcin/fix-PBO-14-fix-bug-on-updating-settings
+			
+				Modification du service setting pour corriger le beug de la modification des paramètres
+
+				Implémentation de la subscription des paramètres couleur dans la navbar, profile, users, contributions et la sidebar pour finaliser le processus
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+			Ticket en cours :   Finalizing user management:  Finalisation de la gestion des utilisateurs
+			
+			git branch -m garcin/fix-PBO-13-finalizing-user-management
+					
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+			Ticket en cours :   Settings management
+			
+			git branch -m garcin/fix-PBO-12-settings-management-update
+			
+			Mise à jour de la gestion des paramètres
+
+			Implémentation de l'affichage des paramètres connexion avec le back
+
+			Implémentation de la modification des paramètres
+
+			Implémentation du paramètre primary-color dans la sidebar, navbar , user et contribution
+
+			Implémentation de la sauvegarde des paramètres dans login pour finaliser le processus
+						
+			
+----------------------------------------------------------------------------------------------------------------------------			
+
+			Ticket en cours:  user-management-update
+			
+			git branch -m garcin/fix-PBO-11-user-management-update
+
+					Désactiver la modification lorsque l'utilisateur est connecté
+					
+					Réglé le bug sur la désactivation du formulaire lors de la création d'un utilisateur 
+					
+					Réglé le bug sur la modification du profil 
+				
+				
+				
+			Ticket:  PBO-10: Resolving remarks during the presentation-of-tuesday
+			
+					
+					Supprimer le main menu dans la sidebar 
+					
+					Résoudre le beug de l'affichage du profil 
+					
+					Réduire la taille du modal détails de l'utilisateur
+					
+					Optimiser l'affichage des tables contribution et utilisateur
+					
+					Optimiser l'affichage des statuts des utilisateurs
+					
+		Branche:   git branch -m garcin/fix-PBO-10-resolving-remarks-during-the-presentation-of-tuesday
+			
+			
+
+			Ticket:  PBO-8:  Resolving remarks during the presentation
+			
+			Objectf
+			
+					Centrer la pagination dans les pages contribution et utilisateur
+					
+					Supprimer la recherche et la notification dans la navbar 
+					
+					Résoudre le bug de la recherche dans les pages contribution et utilisateur
+					
+					Rajouter la div et la condition lorsqu'on a pas les données dans les pages contribution et utilisateur
+					
+					Modification du footer
+					
+					
+			Branche:   git branch -m garcin/fix-PBO-8-resolving-remarks-during-the-presentation
+
+
+			Ticket:  YES-191( Back-office-yesohpay) :  Gestion des transactions 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+		     Mardi 31 oct octobre 2023
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+		 
+
+			Ticket - PBO-7: Gestion des paramètres :  Settings management
+			
+			Branche:   git branch -m garcin/feature-PBO-7-settings-management
+			
+-------------------------------------------------------------------------------------
+			
+		
+					Ticket:    Optimisation de l'affichage de toutes les tables  ===>   Optimization of the display of all tables
+					
+					Lien:  https://ossas-it.atlassian.net/browse/YES-193
+					
+					Branche:  git branch -m garcin/feature-YES-193-optimization-of-the-display-of-all-tables
+
+					Description:  
+					
+					Il s’agit d’optimiser l’affichage de l’ensemble des tables en utilisant le style des tables du template 
+					à la place de celui de prime NG. Les tables concernées sont les suivantes:
+
+							Transactions( dashbord) et transactions ( page)
+
+							Organisations
+
+							Utilisatuers
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				Vendredi 27 octobre 2023
+				
+						Ticket - PBO-6: optimisation de la vue du profil et du détails de l'utilisateur :  Optimization of profile view and user details
+			
+						Branche:   git branch -m garcin/feature-PBO-6-Optimization-profile-view-user-details
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+		Jeudi  26 oct 2023
+		
+				Ticket - PBO-2: Gestion des utilisateurs :  Détails de l'utilisateur 
+			
+				Branche:   git branch -m garcin/feature-PBO-2-user-management-user-details
+				
+				
+			Ticket:  YES-192:  Optimisation de la page de connexion et implémentation de la page forgot-password
+			
+			Lien:  https://ossas-it.atlassian.net/browse/YES-192
+				
+		Context:   Optimisation de la page de connexion et implémentation de la page forgot-password:  Optimization of the login page and implementation of the forgot-password page
+		
+		Branche:   git branch -m garcin/feature-YES-192-optimization-login-page-and-implementation-forgot-password
+				
+				
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+		Mercredi 25 oct 2023
+		
+				Ticket - PBO-4: améliorations de la barre latérale et de l'en-tête : sidebar-and-header-enhancements
+			
+				Branche:   git branch -m garcin/feature-PBO-4-sidebar-and-header-enhancements
+			
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+			Ticket - PBO-3: 	gestion des contributions : contribution management
+				
+				Branche:   git branch -m garcin/feature-PBO-3-contribution-management
+
+-------------------------------------------------------------------------------------------------------------
+
+
+			git branch -m garcin/feature-PBO-2-user-management

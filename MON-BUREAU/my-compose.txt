@@ -1,0 +1,39 @@
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+    *  Exécuter une commande bash dans le conteneur dc-2_mysql_dbb_1
+
+		#  sudo docker exec -it dc-2_mysql_dbb_1 /bin/bash
+
+	*  Se connecter avec l'utilisateur garcin sur mysql
+  
+		# mysql -u garcin -p
+		Enter password:
+		
+		
+	*  Sélectionner la base de données mysql  
+	
+			# SELECT user, host FROM mysql.user;
+			
+	*  Pour voir les tables
+	
+			# SHOW DATABASES;
+
+
+		
+		
+	
+	
+-------------------------------------------------------------------------------------------------------------------
+
+		sudo docker-compose down  =>   pour arrêter et supprimer les conteneurs existants :
+		
+		sudo docker-compose up --build  =>  pour reconstruire les images Docker et démarrer les conteneurs :
+		
+		sudo docker logs javatodev-compose_api_service_1  => Afficher les journaux du conteneurs
+
+		sudo docker-compose down -v   ===>  pour arrêter et Supprimez les volumes associés aux services 
+		
+		sudo docker build -t javatodev-compose_api_service .  ==>  reconstruire l'image

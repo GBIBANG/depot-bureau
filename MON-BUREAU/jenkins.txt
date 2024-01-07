@@ -1,0 +1,22 @@
+
+------------------------------------------------------------------------------
+
+     1- Installer jenkins avec docker
+	 
+			docker pull jenkins/jenkins:jdk11
+			
+------------------------------------------------------------------------------
+
+	2- Pour démarrer un conteneur Jenkins à partir de l'image que nous venons de téléchargée 
+			en mappant le port vers 8095 et en créant un volume appelé jenkins_volume
+	 
+			sudo docker run -p 8095:8080 -p 50000:50000 -v jenkins_volume:/var/jenkins_home jenkins/jenkins:jdk11
+			
+------------------------------------------------------------------------------
+
+	
+			
+
+		
+	
+	

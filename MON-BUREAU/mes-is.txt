@@ -1,0 +1,195 @@
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+											MES IT    
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+	gIT Token:  JTOKEN
+	
+	Code:  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
+
+		ionic serve   ou ionic serve --address 192.168.1.100 --port 8080
+		
+		https://ops.ossas-it.com/index.php
+		Identifiant = garcin.bibang
+		Mot de passe = x5qAH6AZ5fOG
+		
+		pre-commit run --all-files
+		
+		Mot de passe ossas:   ATBB5NSzaRDAqJFC8zjx25mdgs6g1B8575A2
+		
+		https://ossas-it.atlassian.net/wiki/spaces/SD/pages/64749569/Daily+du+15+d+cembre
+		
+		https://ossas-it.atlassian.net/wiki/spaces/SD/pages/1769473/Daily+du+20+09+2023
+	
+		mvn clean install -DskipTests -T1C
+	
+		export SECRET_ENCRYPTION_KEY=bvq2U2TlLWeMrfjOV5w6MqJm && mvn spring-boot:run
+
+	http://localhost:15800/patriote/swagger-ui/index.html
+
+	http://localhost:15800/autoto/swagger-ui/index.html#/
+	
+	http://localhost:13440/yesoh/swagger-ui/index.html#/
+	
+	http://localhost:13540/payments/swagger-ui/index.html#/
+	
+	http://localhost:17000/staff-management/swagger-ui/index.html#/User/login
+	
+	
+----------------------------------------------------------------------------------------
+	
+	
+	TAFF Avec Jenkins
+	
+	docker pull jenkins/jenkins:jdk11
+	
+	sudo docker run -p 8095:8080 -p 50000:50000 jenkins/jenkins:jdk11
+
+	sudo docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v ./jenkins_home:/var/jenkins_home jenkins-custom:1.0.0
+	
+	
+----------------------------------------------------------------------------------------
+	
+		Récupéré la branch d'un distante
+	
+			1-  git checkout VOTRE_BRANCHE_LOCALE
+			
+			2-  git pull origin NOM_DE_LA_BRANCHE_DISTANTE
+
+-----------------------------------------------------------------------------------------
+
+		Désinstaller Et Installer Angular CLI 
+		-----------------------------------------------
+		
+			1-  Désinstaller Angular CLI :
+			
+					npm uninstall -g @angular/cli
+				
+			2-  Installer la nouvelle version souhaitée :
+			
+					npm install -g @angular/cli@15.2.0
+					
+			3-  Vérifier la version d'angular CLI 
+			
+					ng version
+				
+-----------------------------------------------------------------------------	
+
+		email:  coding@ossas-it.com
+		password: dtLM&ak7XRe6npPb
+											
+											
+-------------------------------------------------------------------------------------
+
+		ionic start ct-5 --type=angular --capacitor
+		
+		en spécifiant la valeur d'angular:  ionic start mon-tuto --type=angular --capacitor --angular=12
+		
+		node -v
+		v16.14.0
+		nvm use 18.13
+
+
+	
+		sudo docker-compose build
+		
+		dos2unix wait-for-db.sh
+
+	*  Ajouter des droits à un fichier 
+	
+		chmod +x atom_install64.sh
+
+	    ip a
+		
+		pre-commit run --all-files
+	
+		jenkins: aide à faire des builds
+		
+		
+		* MYSQL
+		
+			Connexion:  mysql -u exp_user -p
+		
+			Mot de passe :  ossas2023
+		
+		sudo systemctl stop mysql
+	
+		sudo service mysql start
+		
+		sudo service mysql status
+		
+		sudo lsof -i -P -n | grep LISTEN
+	
+	sudo kill PID
+	
+---------------------------------------------------------------------------------------------------------------------------------------
+	
+	git branch -m garcin/feature-DEL-40-store-management-finalize
+
+	git commit --amend --no-edit
+	
+	git push -u origin garcin/feature-DM-58-schedules-trains
+	
+	git branch -m <old-branch> <new-branch>
+
+	git branch -D [nom_de_la_branche]  Pour supprimer une branche
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+		GitHub:  email 
+		
+		password:  Hello0505@2018
+
+	
+	Lien nuclino ossas:  https://app.nuclino.com/OSSAS-IT/Documentation
+	
+	Bitbucket ossas :  https://bitbucket.org/ossasit/workspace/overview
+
+	Lien slack:  https://app.slack.com/client/T0291GH98AG/D04KZBV12UD
+	
+	Ossas-It:  email garcin.bibang@ossas-it.com
+	
+	Password:  Achanger1
+	
+	Facebook mot de passe :  Hello0505+
+	
+	Gmail mot de passe :  Hello@2018
+	
+	Materieal dashboard mot de passe :  iqtxn63k
+	
+	Mot de passe Boomi:  Hello0505Hello0505
+	
+	username aws: garcin.bibang 
+	
+	Mot de passe aws: Hello@0505
+	
+	#920241728250 | davy.nze@ossas-it.com
+	
+	Boomi community:  Hello@2023
+	
+	bggarcinbibang@gmail.com
+	
+	Mot de passe :  Hello0505
+	
+	emploi garcin
+--------------------------------
+		
+			email :  fvgarcin2@gmail.com
+			
+			password: Hello@2022
+			
+			
+			
+	Canvas
+--------------------------------
+
+		email :  fvgarcin2@gmail.com
+			
+			password: Hello@2018
+	
+	
+	
+	
+---------------------------------------------------------------------------------------------------------------------------------------

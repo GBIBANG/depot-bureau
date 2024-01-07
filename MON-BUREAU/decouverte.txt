@@ -1,0 +1,29 @@
+
+--------------------------------------------------------------------------------------
+	Vend 05 janvier 2023
+--------------------------------------------------------------------------------------
+	 
+	 - Formation
+	 
+	 1- Les services am ou policy permettent de gerer les acces( des services et les réseaux)
+	 
+	 Ex: je peux avoir acces sur eks mais pas d'autres services 
+	 
+	 
+--------------------------------------------------------------------------------------		
+
+
+
+
+
+--------------------------------------------------------------------------------------
+	 
+	 - Angular
+	 
+			1 - ng new angular-front-end --directory=./
+			
+			L'option --directory=./  
+			spécifie le répertoire dans lequel le nouveau projet sera créé. Dans cet exemple, 
+			le projet sera créé dans le répertoire courant (./ représente le répertoire actuel)
+		
+--------------------------------------------------------------------------------------		
